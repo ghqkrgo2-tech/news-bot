@@ -2,7 +2,7 @@ name: 아침 랭킹뉴스 발송
 
 on:
   schedule:
-    - cron: '30 22 * * *'   # UTC 22:30 = 한국시간 07:30
+    - cron: '53 21 * * *'   # UTC 21:53 = 한국시간 06:53
   workflow_dispatch:         # Actions 탭에서 수동 실행 버튼 (테스트용)
 
 jobs:
